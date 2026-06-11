@@ -1,0 +1,3 @@
+ALTER TABLE materials
+    ALTER COLUMN file_name DROP NOT NULL,
+    ALTER COLUMN title DROP NOT NULL;
